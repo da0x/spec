@@ -10,10 +10,9 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Feature"
   s.version      = "0.0.1"
-  s.summary      = "A short description of Feature."
-  s.description  = <<-DESC
-                   DESC
-  # s.homepage     = "http://EXAMPLE/Feature"
+  s.summary      = "Feature is good."
+  s.description  = "Test feature that is distributed as a pod."
+  s.homepage     = "https://github.com/daher-alfawares/Core-Feature"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.license      = "MIT (example)"
@@ -27,7 +26,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "10.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "http://EXAMPLE/Feature.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/daher-alfawares/Core-Feature.git", :tag => "#{s.version}" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Feature/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
