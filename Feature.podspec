@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Feature"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Feature is good."
   s.description  = "Test feature that is distributed as a pod."
   s.homepage     = "https://github.com/daher-alfawares/Core-Feature"
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.resources = "Feature/**/*.{png,jpeg,jpg,storyboard,xib}"
+  s.resources = "Feature/*.{png,jpeg,jpg,storyboard,xib}"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
