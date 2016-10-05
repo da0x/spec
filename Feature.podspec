@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Feature"
-  s.version      = "0.0.3"
+  s.version      = "0.0.7"
   s.summary      = "Feature is good."
   s.description  = "Test feature that is distributed as a pod."
   s.homepage     = "https://github.com/daher-alfawares/Core-Feature"
@@ -44,6 +44,6 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "Protocol", "~> 0.0.5"
 
 end

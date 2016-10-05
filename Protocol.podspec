@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Protocol"
-  s.version      = "0.0.1"
+  s.version      = "0.0.5"
   s.summary      = "Protocols for all features."
   s.description  = "Each feature that is distributed as a pod depends on CoreProtocols which will define the mechanism of communication between the core and its features."
-  s.homepage     = "https://github.com/daher-alfawares/Core-Protocols"
+  s.homepage     = "https://github.com/daher-alfawares/Protocol"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.license      = "MIT (example)"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "10.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/daher-alfawares/Core-Protocols.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/daher-alfawares/Protocol.git", :tag => "#{s.version}" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Protocol/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
