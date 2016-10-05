@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "CoreProtocols"
+  s.name         = "Protocol"
   s.version      = "0.0.1"
-  s.summary      = "Protocols for Core features."
+  s.summary      = "Protocols for all features."
   s.description  = "Each feature that is distributed as a pod depends on CoreProtocols which will define the mechanism of communication between the core and its features."
   s.homepage     = "https://github.com/daher-alfawares/Core-Protocols"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/daher-alfawares/Core-Protocols.git", :tag => "#{s.version}" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "CoreProtocols/**/*.{swift}"
+  s.source_files  = "Protocol/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
